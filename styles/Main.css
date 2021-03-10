@@ -1,0 +1,53 @@
+#PurpleStrip{
+  background-color: rgb(197, 225, 255);
+  margin: 0%;
+  width: 100%;
+}
+ 
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+ 
+a:link, a:visited{
+    background-color: #7969A6; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+ 
+body {
+    background-color: #09F5F9;
+    margin: 0;
+}
+
+a:hover, a:active {
+  background-color:#ffffff;
+}
+
+#welcometext{
+  font-size: 30px;
+  padding: 20px;
+  border: black solid ;
+  background-color: rgb(197, 225, 255);
+  border-radius: 15px;
+  width:55% ;
+  float:right;
+  margin-right: 250px;
+  margin-top: 60px;
+}
+
+.button {
+  background-color: rgb(197, 225, 255); 
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin: 80px 700px;
+  cursor: pointer; 
+  display: inline-block;
+}
