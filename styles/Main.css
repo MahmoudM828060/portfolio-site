@@ -1,14 +1,17 @@
+/*css for background colour of header*/
 #PurpleStrip{
   background-color: rgb(197, 225, 255);
   margin: 0%;
   width: 100%;
 }
  
+/*css for header*/
 h1{
   text-align: center;
   font-size: 50px;
 }
  
+/*css for navigation buttons*/
 a:link, a:visited{
     background-color: #7969A6; 
     border: none;
@@ -20,15 +23,18 @@ a:link, a:visited{
     font-size: 20px;
 }
  
+/*css for main background colour*/
 body {
     background-color: #09F5F9;
     margin: 0;
 }
 
+/*css for hover feature on all buttons*/
 a:hover, a:active {
   background-color:#ffffff;
 }
 
+/*css for welcome text*/
 #welcometext{
   font-size: 30px;
   padding: 20px;
@@ -41,6 +47,7 @@ a:hover, a:active {
   margin-top: 60px;
 }
 
+/*css for button*/
 .button {
   background-color: rgb(197, 225, 255); 
   color: rgb(0, 0, 0);

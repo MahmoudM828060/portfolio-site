@@ -1,3 +1,4 @@
+/*css for paragraph*/
 #textrow4{
     font-size: 25px;
     padding: 20px;
@@ -10,6 +11,7 @@
     margin-top: 60px;
 }
 
+/*css for paragraph*/
 #textrow5{
     font-size: 25px;
     padding: 20px;
@@ -22,6 +24,7 @@
     margin-top: 60px;
 }
 
+/*css for coding picture*/
 #code{
     float: left;
     position: relative;
@@ -29,6 +32,7 @@
     margin-left:50px;
 }
 
+/*css for picture of two people talking*/
 #discussion{
     float: right;
     position: relative;
