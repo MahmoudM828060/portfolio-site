@@ -4,11 +4,6 @@
     alert("Hello " + name);
   }
 
-/*code for all assignment buttons*/
-  function comingsoon() {
-    alert('This assignment has not been completed.');
-  }
-
 //ComingSoon9//
 function comingsoon9() {
   output = "Assignment Ten Will Be Coming Soon."; //Button Undertext//
