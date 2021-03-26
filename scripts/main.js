@@ -6,5 +6,5 @@
 
 /*code for all assignment buttons*/
   function comingsoon() {
-    alert('This assignment has not been completed.');
+    alert("This assignment has not been completed.");
   }
