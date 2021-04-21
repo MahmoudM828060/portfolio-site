@@ -2,7 +2,7 @@
  function getName(){
     let name = prompt("What's your name?");
     alert("Hello " + name);
-  }
+}
 
   /* larger number assignment*/
 function largernumber(){
