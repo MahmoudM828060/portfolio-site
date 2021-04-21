@@ -39,3 +39,16 @@ function largernumber(){
     }
   document.getElementById("ProductSign").innerHTML = output;
 }
+
+ /*Button 3, three number sort least to greatest*/
+ function threeNumberSort(){
+  let num1 = parseInt(prompt("Enter the first number"));
+  let num2 = parseInt(prompt("Enter the second number"));
+  let num3 = parseInt(prompt("Enter the third number"));
+  let array = [num1, num2, num3]; // creates a "list" containing all variables that were inputted
+  array.sort(function(a, b){return a - b}); //sort function for array which shows least to greatest
+    {
+      output = "These numbers ordered from least to greatest is, " + array;
+    }
+  document.getElementById("leastToGreatest").innerHTML = output;
+}
