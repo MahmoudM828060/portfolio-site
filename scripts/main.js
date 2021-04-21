@@ -4,18 +4,22 @@
     alert("Hello " + name);
   }
 
-  /* Assignment button 1, find larger number button*/
+  /* larger number assignment*/
 function largernumber(){
-  let num1 = parseInt(prompt("Enter your first number: "));
-  let num2 =  parseInt(prompt("Enter your second number: "));
+  let num1 = parseInt(prompt("Enter a number: "));
+  let num2 =  parseInt(prompt("Enter another number: "));
   let output = ""
-  if (num1 > num2){ //if first number is larger than second, output first
+  if (num1 > num2){ 
+    //if the first number inputed is larger 
     output = num1;
-  } else if (num1 == num2){ // otherwise, if they are equal, output this
+  } else if (num1 == num2){ 
+    // if the numbers inputed are equal
     output = "The numbers you entered are equal!";
-  } else if (num2 > num1){ // if num 2 is larger, output this
+  } else if (num2 > num1){ 
+    // if the second number inputed is larger
     output = num2;
-  } else { // if there arent sufficient numbers for the function to work
+  } else { 
+    // if the numbers inputted are invalid
     output = "Invalid Output";
   }
   document.getElementById("largerNum").innerHTML = output;
