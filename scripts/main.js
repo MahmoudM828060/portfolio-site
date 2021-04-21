@@ -33,10 +33,10 @@ function largernumber(){
   let totalProduct = a * b * c; //defines total product as the variables multiplied by eachother
   if (totalProduct < 0 ){ //if the product is less than 0 (negative) 
       output = "The sign of the product of your entered numbers is, -";  
-  }
+    }
   if (totalProduct > 0 ){ //if the product is more than 0 (positive)
       output = "The sign of the product of your entered numbers is, +";  
-    }
+     }
   document.getElementById("ProductSign").innerHTML = output;
 }
 
